@@ -1,0 +1,11 @@
+nav.navbar.navbar-default {
+  background-color: #232323;
+}
+section.container-fluid {
+	margin-bottom: 4px;
+}
+img {
+	position: relative;
+	top:-15px;
+	left:-15px;
+}
