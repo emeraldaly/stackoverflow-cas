@@ -13,31 +13,40 @@
   <!--Top Navigation Bar -->
   <nav class="navbar navbar-default">
     <section class="container-fluid">
-      <header class="navbar-header">
-        <a href="/" class="navbar-brand"><img src="images/stackexchangeimage.png">
-        </a>
-      </header>
-      <ul class="nav navbar-nav">
-        <li class="active top"><a href="/">sign up</a></li>
-        <li><a href="#">log in</a></li>
-        <li><a href="#">tour</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">help <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Tour</a></li>
-            <li><a href="#">Help Center</a></li>
-            <li><a href="#">Meta</a></li>
-          </ul>
-        </li>
-        <li><a href="messages.html">stack overflow careers</a></li>
-      </ul>
-      <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control search" placeholder="search">
-        </div>
-      </form>
+      <section class="row">
+        <div class="col-md-3 col-xs-6">
+		      <header class="navbar-header">
+		        <a href="/" class="navbar-brand"><img src="images/stackexchangeimage.png">
+		        </a>
+		      </header>
+	      </div>
+	      <div class="col-md-6 hidden-xs hidden-sm">
+		      <ul class="nav navbar-nav">
+		        <li class="active top"><a href="/">sign up</a></li>
+		        <li><a href="#">log in</a></li>
+		        <li><a href="#">tour</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">help <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Tour</a></li>
+		            <li><a href="#">Help Center</a></li>
+		            <li><a href="#">Meta</a></li>
+		          </ul>
+		        </li>
+		        <li><a href="messages.html">stack overflow careers</a></li>
+		      </ul>
+	      </div>
+	      <div class="col-md-3 col-xs-6">
+		      <form class="navbar-form navbar-right" role="search">
+		        <div class="form-group">
+		          <input type="text" class="form-control search" placeholder="search">
+		        </div>
+		      </form>
+	      </div>
+      </section>
     </section>
   </nav>
+  <!--End top nav-->
 <div class="container-fluid">
   <div class="row">
      <div class="col-md-2">
@@ -59,7 +68,7 @@
     </div>
     <div class="col-md-3">
       <div class="sidebar-nav-float">
-      <ul class="nav" style="background-color: antiquewhite;">
+      <ul class="nav side">
         <li class="nav-header">Featured on Meta</li>
         <li class="active"><a href="#">7. New Navigation Release Candidate</a>
         </li>

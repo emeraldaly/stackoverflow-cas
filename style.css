@@ -43,6 +43,15 @@ input.form-control.search{
 	text-align: left;
 	padding-left: 0;
 }
+ul.nav.side {
+	background-color: #fff8dc;
+}
+.btn-primary {
+	border-radius: 0;
+	background-color: #9EA3A9;
+	border-color: #9EA3A9;
+	padding: 4px 10px 5px;
+}
 /*span {
 	color: #E0E0E0;
 }*/
