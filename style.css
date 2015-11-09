@@ -52,6 +52,10 @@ ul.nav.side {
 	border-color: #9EA3A9;
 	padding: 4px 10px 5px;
 }
-/*span {
-	color: #E0E0E0;
-}*/
+.subheader h1 {
+	float: left;
+	font-size: 18px;
+}
+.badge {
+	background-color: #07D;
+}
