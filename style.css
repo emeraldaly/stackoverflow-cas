@@ -1,0 +1,48 @@
+nav.navbar.navbar-default {
+  background-color: #232323;
+}
+.navbar {
+	min-height: 36px;
+	max-height: 36px;
+}
+.nav {
+	position: relative;
+	left: 20%;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #E0E0E0;
+	padding-top: 7px;
+}
+.nav>li>a {
+	padding: 10px 15px 0px 15px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #5A5A5A;
+	color: #E0E0E0;
+	padding-bottom: 7px;
+}
+img {
+	position: relative;
+	top:-11px;
+	height:28px;
+}
+#stack {
+	height: 75px;
+	left: 0;
+}
+
+.top {
+	max-height: 32px;
+}
+input.form-control.search{
+	position: relative;
+	top: -3px;
+	border-radius: 0;
+	height:20px;
+	width: 188px;
+	text-align: left;
+	padding-left: 0;
+}
+/*span {
+	color: #E0E0E0;
+}*/
