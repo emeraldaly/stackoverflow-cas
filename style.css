@@ -52,6 +52,31 @@ ul.nav.side {
 	border-color: #9EA3A9;
 	padding: 4px 10px 5px;
 }
-/*span {
-	color: #E0E0E0;
-}*/
+.subheader h1 {
+	float: left;
+	font-size: 18px;
+}
+.badge {
+	background-color: #07D;
+}
+.indiv {
+	padding: 0;
+  border-bottom: 1px solid #e0e0e0;
+  overflow: hidden;
+  float: left;
+  /*width: 728px;*/
+}
+.answers {
+	display: inline-block;
+	width: 50px;
+	height: 38px;
+	text-align: center;
+}
+.qs {
+	width: 530px;
+    padding: 0;
+    display: inline-block;
+}
+p.asked {
+	float: right;
+}
