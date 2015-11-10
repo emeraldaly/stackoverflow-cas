@@ -80,3 +80,12 @@ ul.nav.side {
 p.asked {
 	float: right;
 }
+
+footer
+{
+	background-color: black;
+}
+.footnavbar-default .footnavbar-footnavbat>li>a {
+	color: #222;
+	padding-top: 7px;
+}
