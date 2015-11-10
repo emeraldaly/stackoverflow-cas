@@ -80,6 +80,28 @@ ul.nav.side {
 p.asked {
 	float: right;
 }
+
+footer
+{
+	background-color: black;
+}
+.footnavbar-default .footnavbar-footnavbat>li>a {
+	color: #222;
+	padding-top: 7px;
+}
+.footer a {
+	color: #a2dcf4;
+}
+.footer li {
+	color: #bbb;
+}
+.footer p {
+	color: #777;
+}
+ul > :first-child {
+	color: #fff;
+/*
+=======
 .footer{
 	background-color: #696969;
 
@@ -87,5 +109,4 @@ p.asked {
 .footer li {
 	color: #b3bfcf
 }
-
-}
+*/
