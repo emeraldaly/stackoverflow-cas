@@ -89,3 +89,15 @@ footer
 	color: #222;
 	padding-top: 7px;
 }
+.footer a {
+	color: #a2dcf4;
+}
+.footer li {
+	color: #bbb;
+}
+.footer p {
+	color: #777;
+}
+ul > :first-child {
+	color: #fff;
+}
